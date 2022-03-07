@@ -196,7 +196,7 @@ int main()
    for(;;){
         printf("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
     printf("\nEnter your choice\n");
-    printf("\n1.Insert\n2.Delete\n3.Display\n4.exit\n5.Check length\n6.Alternate node printing\n7,Insert at after specific element\n8.Search\n");
+    printf("\n1.Insert\n2.Delete\n3.Display\n4.exit\n5.Check length\n6.Alternate node printing\n7,Insert at after specific element\n8.Search\n9.Reverse list\n");
     scanf("%d",&ch);
     switch(ch){
     case 1:printf("Enter the elemnt to insert\n");
@@ -218,6 +218,7 @@ int main()
     case 8:search(first);
     break;
     case 9:first=revrs(first);
+    break;
     }
    }
     return 0;
