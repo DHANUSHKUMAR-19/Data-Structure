@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1642152045 source:c:\users\dgowda\documents\github\data-structure\infix to pos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

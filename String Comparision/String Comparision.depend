@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1646289105 source:c:\users\dgowda\documents\github\data-structure\string comparision\main.cpp
+	<iostream>
+	<string.h>
+

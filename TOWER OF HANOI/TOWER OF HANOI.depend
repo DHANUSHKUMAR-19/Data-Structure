@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1646277332 source:c:\users\dgowda\documents\github\data-structure\tower of hanoi\main.c
+	<stdio.h>
+	<stdlib.h>
+

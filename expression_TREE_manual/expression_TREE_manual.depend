@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1642130065 source:c:\users\dgowda\documents\github\data-structure\expression_tree_manual\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<math.h>
+

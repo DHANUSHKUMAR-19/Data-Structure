@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1645003616 source:c:\users\dgowda\documents\github\data-structure\gcd using euclid\main.c
+	<stdio.h>
+	<stdlib.h>
+

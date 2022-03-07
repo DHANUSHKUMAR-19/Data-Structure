@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1642086100 source:c:\users\dgowda\documents\github\data-structure\cicular double linked list\main.c
+	<stdio.h>
+	<stdlib.h>
+

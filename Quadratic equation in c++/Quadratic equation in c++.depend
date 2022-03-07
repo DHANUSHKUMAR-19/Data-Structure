@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1645079810 source:c:\users\dgowda\documents\github\data-structure\quadratic equation in c++\main.cpp
+	<iostream>
+	<math.h>
+

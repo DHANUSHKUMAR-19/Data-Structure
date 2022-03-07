@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1642405186 source:c:\users\dgowda\documents\github\data-structure\palindrome_using_stack\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

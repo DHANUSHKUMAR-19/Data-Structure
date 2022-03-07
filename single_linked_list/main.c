@@ -166,6 +166,28 @@ void search(NODE first)
     return first;
 
 }
+NODE revrs(NODE first)
+{
+    if(first==NULL)
+    {
+        printf("Em[ty linked list\n");
+        return first;
+    }
+    if(first->link==NULL)
+    {
+        return first;
+    }
+    NODE prev,next;
+    prev=next=NULL;
+    while(first!=NULL)
+    {
+        next=first->link;
+        first->link=prev;
+        prev=first;
+        first=next;
+    }
+    return prev;
+}
 
 int main()
 {
@@ -195,6 +217,7 @@ int main()
     break;
     case 8:search(first);
     break;
+    case 9:first=revrs(first);
     }
    }
     return 0;
