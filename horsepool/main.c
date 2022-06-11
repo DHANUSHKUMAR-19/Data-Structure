@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include<string.h>
-#define size 128
+#define size 128 // must be greater than or equal to 128
 int table[size];
 void shifttable(char p[])
 {
