@@ -1,59 +1,55 @@
 #include <stdio.h>
 #include <stdlib.h>
-char  shift_table(char p[100],int m,int n)
+#include<string.h>
+#define size 128
+int table[size];
+void shifttable(char p[])
 {
-    int i,j;
-    char table[100];
-    for(i=0;i<n;i++)
+    int i,j,m;
+    m=strlen(p);
+    for(i=0;i<size;i++)
     {
         table[i]=m;
         for(j=0;j<m-1;j++)
         {
-            table[p[i]]=m-1-j;
+            table[p[j]]=m-1-j;
         }
-
     }
-    return table;
 }
-char horsepool(char P[],char T[],int m,int n)
+int horsepool(char p[],char t[])
 {
-    shift_table(P,m,n);
-    int i,j,k;
+    int i,j,k,m,n;
+    m=strlen(p);
+    n=strlen(t);
     i=m-1;
-    while(i<=n)
+    while(i<n)
     {
         k=0;
-        while(k<=m-1&&T[m-1-k]==P[i-k])
-            k=k+1;
+        while(k<m && p[m-1-k]==t[i-k])
+            k++;
         if(k==m)
             return i-m+1;
-
+        else
+            i=i+table[t[i]];
     }
     return -1;
 }
 
+
 int main()
 {
     char p[100],t[100];
-    int n,m,a;
-    printf("\nEnter the size of text:");
-    scanf("%d",&n);
-    printf("\nEnter the size of the patter: ");
-    scanf("%d",&m);
-    printf("\nEnter the text: ");
-    scanf("%s",t);
-    printf("\nEnter the pattern:");
+    printf("Enter the text\n");
+    gets(t);
+    printf("Enter the pattern\n");
     scanf("%s",p);
-    a=horsepool(p,t,m,n);
-    if(a==-1)
-    {
-        printf("\nText not found");
-
-    }
-    else{
-        printf ("Text found at %d position\n");
-    }
-
-
+    shifttable(p);
+    int pos;
+    pos=horsepool(p,t);
+    printf("you came back\n");
+    if(pos>=0)
+        printf("Pattern found at %d position\n",pos);
+    else
+        printf("Pattern not found");
     return 0;
 }
