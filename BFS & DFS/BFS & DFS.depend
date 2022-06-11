@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1654778644 source:c:\users\dgowda\documents\github\data-structure\bfs & dfs\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1654782587 source:c:\users\dgowda\documents\github\data-structure\horsepool algorithm\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

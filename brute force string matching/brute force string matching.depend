@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1654611074 source:c:\users\dgowda\documents\github\data-structure\brute force string matching\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+

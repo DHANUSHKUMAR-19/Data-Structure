@@ -5,7 +5,7 @@
 #include<ctype.h>
 #include<math.h>
 struct node{
-int info;
+char info;
 struct node *llink;
 struct node *rlink;
 };
@@ -55,6 +55,15 @@ for(i=0;postfix[i]!='\0';i++)
 }
 return stack1[top--];
 }
+void preorder(NODE root)
+{
+    if(root!=NULL)
+    {
+        printf("%c\t",root->info);
+        preorder(root->llink);
+        preorder(root->rlink);
+    }
+}
 float evaluate(NODE root)
 {
     switch(root->info)
@@ -64,7 +73,7 @@ float evaluate(NODE root)
     case '*':return(evaluate(root->llink)*evaluate(root->rlink));
     case '/':return(evaluate(root->llink)/evaluate(root->rlink));
     case '$':
-    case '^':return(pow(eval(root->llink),eval(root->rlink)));
+    case '^':return(pow(evaluate(root->llink),evaluate(root->rlink)));
     default:return(root->info-'0');
 
     }
@@ -84,6 +93,7 @@ int main()
         printf("Invalid expression\n");
         return 0;
     }
+    preorder(root);
     res=evaluate(root);
     printf("Result after evaluation = %.2f\n",res);
     return 0;

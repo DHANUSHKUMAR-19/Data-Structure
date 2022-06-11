@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1646630317 source:c:\users\dgowda\documents\github\data-structure\selection sort\main.c
+1654609134 source:c:\users\dgowda\documents\github\data-structure\selection sort\main.c
 	<stdio.h>
+	<time.h>
 	<stdlib.h>
 
