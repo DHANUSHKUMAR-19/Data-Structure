@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1655026588 source:c:\users\dgowda\documents\github\data-structure\lab mse1_2021-22\bruteforce string matching\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+

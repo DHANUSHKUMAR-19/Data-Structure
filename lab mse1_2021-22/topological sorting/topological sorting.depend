@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1655048354 source:c:\users\dgowda\documents\github\data-structure\lab mse1_2021-22\topological sorting\main.c
+	<stdio.h>
+	<stdlib.h>
+

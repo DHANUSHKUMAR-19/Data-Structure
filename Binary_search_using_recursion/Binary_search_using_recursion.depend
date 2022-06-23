@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1642406783 source:c:\users\dgowda\documents\github\data-structure\binary_search_using_recursion\main.c
+	<stdio.h>
+	<stdlib.h>
+

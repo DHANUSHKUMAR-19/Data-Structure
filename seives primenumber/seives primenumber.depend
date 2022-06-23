@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1655006624 source:c:\users\dgowda\documents\github\data-structure\seives primenumber\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

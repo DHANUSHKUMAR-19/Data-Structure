@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1655052795 source:c:\users\dgowda\documents\github\data-structure\lab mse1_2021-22\horsepool\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
