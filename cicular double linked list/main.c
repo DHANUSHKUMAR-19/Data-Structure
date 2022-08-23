@@ -80,7 +80,7 @@ else{
 }
 
 }
-NODE del(NODE first)
+NODE del_rear(NODE first)
 {
     if(first==NULL)
     {
