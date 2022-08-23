@@ -32,7 +32,7 @@ cur=NULL;
 free(cur);
 return first;
 }
-NODE del(NODE first)
+NODE del_rear(NODE first)
 {
     if(first==NULL)
     {
